@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Always include this permission -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".mapa.MapaPoligonoPointDrawApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutoCana"
+        tools:targetApi="31">
+        <activity
+            android:name=".procura.ProcPlantProducao"
+            android:exported="false" />
+        <activity
+            android:name=".procura.ProcPlantColheita"
+            android:exported="false" />
+        <activity
+            android:name=".procura.ProcInsumos"
+            android:exported="false" />
+        <activity
+            android:name=".procura.ProcPlantacoes"
+            android:exported="false" />
+        <activity
+            android:name=".cadastros.CadEstimativas"
+            android:exported="false" />
+        <activity
+            android:name=".Estimativas"
+            android:exported="false" />
+        <activity
+            android:name=".mapa.Mapa"
+            android:exported="false" />
+        <activity
+            android:name=".mapa.ui.map.Mapa"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarSenha"
+            android:exported="false" />
+        <activity
+            android:name=".cadastros.CadProducoes"
+            android:exported="false" />
+        <activity
+            android:name=".cadastros.CadInsumos"
+            android:exported="false" />
+        <activity
+            android:name=".cadastros.CadPlantacoes"
+            android:exported="false" />
+        <activity
+            android:name=".cadastros.CadColheita"
+            android:exported="false" />
+        <activity
+            android:name=".Insumos"
+            android:exported="false" />
+        <activity
+            android:name=".Producoes"
+            android:exported="false" />
+        <activity
+            android:name=".Plantacoes"
+            android:exported="false" />
+        <activity
+            android:name=".Colheita"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.AutoCana.NoActionBar" />
+        <activity
+            android:name=".Cadastro"
+            android:exported="false"
+            android:theme="@style/Base.Theme.AutoCana" />
+        <activity
+            android:name=".Principal"
+            android:exported="true"
+            android:theme="@style/Base.Theme.AutoCana">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

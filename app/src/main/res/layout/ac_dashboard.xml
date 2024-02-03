@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="@drawable/fundo">
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:text="AutoCana"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/tvTitulo6"
+        android:layout_width="192dp"
+        android:layout_height="53dp"
+        android:text="Bem-Vindo!"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="350dp"
+        android:layout_height="44dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <ImageView
+        android:id="@+id/imvLogo2"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/btn_logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="botao_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_logout" />
+
+    <ImageButton
+        android:id="@+id/btn_colheita"
+        android:layout_width="154dp"
+        android:layout_height="159dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/botao_personalizado"
+        android:contentDescription="colheita"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758"
+        app:srcCompat="@drawable/ic_colheita" />
+
+    <ImageButton
+        android:id="@+id/btn_insumos"
+        android:layout_width="154dp"
+        android:layout_height="159dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/botao_personalizado"
+        android:contentDescription="insumos"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758"
+        app:srcCompat="@drawable/ic_insumos" />
+
+    <ImageButton
+        android:id="@+id/btn_plantacoes"
+        android:layout_width="154dp"
+        android:layout_height="159dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/botao_personalizado"
+        android:contentDescription="palntacoes"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451"
+        app:srcCompat="@drawable/ic_plantacoes" />
+
+    <ImageButton
+        android:id="@+id/btn_estimativas"
+        android:layout_width="344dp"
+        android:layout_height="71dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/botao_personalizado"
+        android:contentDescription="estimativas"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918"
+        app:srcCompat="@drawable/ic_estimativas" />
+
+    <ImageButton
+        android:id="@+id/btn_producoes"
+        android:layout_width="154dp"
+        android:layout_height="159dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/botao_personalizado"
+        android:contentDescription="producoes"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451"
+        app:srcCompat="@drawable/ic_producoes" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

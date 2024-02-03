@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188406528411",
+    "project_id": "autocana-8fbc1",
+    "storage_bucket": "autocana-8fbc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188406528411:android:29d4958f9565d71595493e",
+        "android_client_info": {
+          "package_name": "com.autocana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATFSzSpUvt63lx_bF48N6u0X0f-hHoAQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
